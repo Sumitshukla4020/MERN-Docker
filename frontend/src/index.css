@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures the body spans the entire viewport height */
+}
+#root {
+  height: 100%; /* Ensures React's root div spans full height */
+}

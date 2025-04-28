@@ -14,10 +14,10 @@ pipeline {
             steps {
                 echo 'Build step started...'
                 dir('frontend') {
-                    bat 'npm install'
+                    sh 'npm install'
                 }
                 dir('backend') {
-                    bat 'npm install'
+                    sh 'npm install'
                 }
                 echo 'Build step completed.'
             }

@@ -6,7 +6,7 @@ services:
     networks:
       - mern_network
     environment:
-      MONGO_URI: mongodb://mongo:27017/Secure-Notebook-docker  
+      MONGO_URI: mongodb://mongodb:27017/Secure-Notebook-docker  
     depends_on:
       - mongodb
 
